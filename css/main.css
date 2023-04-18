@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(90, 56, 213);
+}
+header{
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .divmainuno{
+    text-align: center;
+    width: 300px;
+}
+
+main .divmainuno h2 span{
+    display: block;
+}
+
+section{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
